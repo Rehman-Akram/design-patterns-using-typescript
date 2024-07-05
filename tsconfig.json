@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2023",                                  
-    "module": "CommonJS",                                
+    "module": "ESNext",                                
     "esModuleInterop": true,                             
     "forceConsistentCasingInFileNames": true,            
     "strict": true,                                    
@@ -9,10 +9,6 @@
     "skipLibCheck": true,
     "outDir": "./dist",
     "rootDir": "./typescript",
-    "baseUrl": "./",
-    "paths": {
-      "*": ["typescript/*"]
-    }
   },
   "include": ["typescript/**/*"],
   "exclude": ["node_modules", "dist"]

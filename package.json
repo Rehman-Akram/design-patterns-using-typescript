@@ -2,6 +2,7 @@
   "name": "design-patterns",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
@@ -12,8 +13,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "tsc-alias": "^1.8.10",
-    "typescript": "^5.5.3",
-    "tsc-watch": "^6.2.0"
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.5.3"
   }
 }
